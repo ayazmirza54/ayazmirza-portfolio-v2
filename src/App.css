@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+.portfolio-container {
+  background-color: #000000;
+  background-image: radial-gradient(circle, #3131313c 1px, transparent 1px);
+  background-size: 20px 20px;
+  width: 100%; /* Full width on mobile */
+  padding: 15px; /* Smaller padding for mobile */
+  margin: 0 auto;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  height: 1px;
+  width: 1em;
+  background-color: white;
+}
+
+li:last-child::after {
+  content: none;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  bottom: -0.6em;
+  width: 1px;
+  background-color: white;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .portfolio-container {
+    width: 70%; /* 60% width on larger screens */
+    padding: 30px; /* Larger padding for desktop */
+  }
+}
