@@ -3,16 +3,23 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="portfolio-container p-4" id="introduction">
-    <div className="text-4xl font-extrabold capitalize"> Introduction</div>
-    <br></br>
+      <div className="text-4xl font-extrabold capitalize"> Introduction</div>
+      <br></br>
       <p>
-        I’m a web developer and data analyst with hands-on experience in
-        building applications and analyzing data flows.
-         <br></br>
-         My work involves using
-        the Ab Initio tool for data processing and integration, along with
-        scripting in shell to automate tasks and streamline processes. I focus
-        on creating efficient, reliable solutions tailored to project needs.
+        Experienced in using Ab Initio to create strong data processing
+        workflows, and skilled at writing shell scripts to keep things running
+        smoothly. Good at writing SQL queries that make databases run faster and
+        more efficiently. Proficient with Power BI, creating clear, visual
+        reports and dashboards that help make decisions based on data.
+        <br></br>
+        Also a front-end developer who enjoys building websites that are easy to
+        use and look good. Knowledgeable in HTML, CSS, and JavaScript, and pays
+        close attention to design and accessibility to ensure everyone can use
+        the site. Committed to learning and keeping up with new trends in web
+        development.
+        <br></br>
+        Proficient in using AI tools like Gemini AI, Claude AI, and OpenAI
+        ChatGPT.
       </p>
     </div>
   );

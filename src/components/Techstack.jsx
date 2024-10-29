@@ -19,6 +19,7 @@ const Techstack = () => {
       { name: "Node.js", icon: "📦" },
       { name: "Bootstrap", icon: "🎯" },
       { name: "TailwindCSS", icon: "💨" },
+      { name: "Bootstrap", icon: "🅱️" },
     ],
     "Databases": [
       { name: "MySQL", icon: "🗄️" },
@@ -31,6 +32,12 @@ const Techstack = () => {
       { name: "Notion", icon: "📓" },
       { name: "Git", icon: "🔄" },
       { name: "Ab Initio ETL tool", icon: "🏭" },
+      { name: "Power BI", icon: "📊" },
+      { name: "Grafana", icon: "📈" },
+      { name: "Control Center", icon: "🔄" },
+      { name: "Gemini AI", icon: "🤖" },
+      { name: "Claude AI", icon: "🤖" },
+      { name: "OpenAI ChatGPT", icon: "🤖" },
     ],
   };
 
@@ -79,11 +86,13 @@ const Techstack = () => {
                   variants={itemVariants}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="border border-gray-700 rounded-lg p-4 hover:border-gray-500 transition-all bg-black/50 backdrop-blur-sm"
+                  className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 overflow-hidden"
                 >
-                  <div className="flex items-center gap-2">
-                    <span className="text-2xl">{tech.icon}</span>
-                    <span className="font-medium text-gray-300">{tech.name}</span>
+                  <div className="bg-black rounded-lg p-4 h-full">
+                    <div className="flex items-center gap-2">
+                      <span className="text-2xl">{tech.icon}</span>
+                      <span className="font-medium text-gray-300">{tech.name}</span>
+                    </div>
                   </div>
                 </motion.div>
               ))}

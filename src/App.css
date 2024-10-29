@@ -47,7 +47,7 @@ li::after {
 /* Media query for larger screens */
 @media (min-width: 768px) {
   .portfolio-container {
-    width: 70%; /* 60% width on larger screens */
+    width: 75%; /* 60% width on larger screens */
     padding: 30px; /* Larger padding for desktop */
   }
 }
