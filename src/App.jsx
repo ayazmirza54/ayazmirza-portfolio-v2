@@ -17,7 +17,7 @@ function App() {
   });
 
   const contentProps = useSpring({
-    from: { opacity: 0, transform: 'translateY(50px)' },
+    from: { opacity: 0, transform: 'translateY(25px)' },
     to: { opacity: 1, transform: 'translateY(0px)' },
     config: { duration: 800 },
     delay: 300

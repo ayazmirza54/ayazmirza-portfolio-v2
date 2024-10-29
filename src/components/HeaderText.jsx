@@ -1,10 +1,11 @@
 import React from "react";
-
+import { FaLinkedin, FaGithub, FaTwitter, FaDev } from "react-icons/fa";
 const HeaderText = () => {
   const socialLinks = {
-    Twitter: "https://twitter.com/ayazmirza54",
-    LinkedIn: "https://www.linkedin.com/in/ayazmirza54",
-    Github: "https://github.com/ayazmirza54",
+    LinkedIn: { link: "https://www.linkedin.com/in/ayazmirza54", icon: <FaLinkedin /> },
+    Github: { link: "https://github.com/ayazmirza54", icon: <FaGithub /> },
+    Twitter: { link: "https://twitter.com/ayazmirza54", icon: <FaTwitter /> },
+    "Dev.to": { link: "https://dev.to/ayazmirza54", icon: <FaDev /> },
   };
 
   return (
@@ -14,12 +15,12 @@ const HeaderText = () => {
           <h1 className="text-4xl md:text-6xl font-bold uppercase">
             Ayaz Mirza
           </h1>
-          <p className="text-xl md:text-2xl mt-2">Software Engineer</p>
+          <p className="text-xl md:text-2xl mt-2">Software Engineer from Lucknow, India</p>
         </div>
       </div>
       <div className="social-links col-span-1 md:row-span-2 md:col-span-4 flex flex-col relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
         <div className="bg-black rounded-lg p-4 h-full flex flex-col space-y-4">
-          {Object.entries(socialLinks).map(([platform, link]) => (
+          {Object.entries(socialLinks).map(([platform, { link, icon }]) => (
             <a
               key={platform}
               href={link}
@@ -28,10 +29,8 @@ const HeaderText = () => {
               className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300"
             >
               <div className="grid grid-cols-2 items-center p-2 rounded-lg bg-black hover:bg-white hover:text-black transition-colors">
-                <p className="font-bold">{platform}🔗</p>
-                <p>
-                  {platform === "ayazmirza54" ? "ayazmirza54" : `ayazmirza54`}
-                </p>
+                <p className="font-bold flex items-center gap-2">{icon} {platform}</p>
+                <p>ayazmirza54</p>
               </div>
             </a>
           ))}
@@ -41,7 +40,8 @@ const HeaderText = () => {
         <div className="bg-black rounded-lg p-4 h-full">
           <div className="grid grid-cols-8 items-center">
             <p className="font-bold col-span-2 md:col-span-1">Email</p>
-            <p className="col-span-6 md:col-span-7">ayazmirza54@gmail.com</p>
+            <p className="col-span-6 md:col-span-7">ayazmirza54@gmail.com | ☎️ +919889017774</p>
+
           </div>
         </div>
       </div>
