@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { inject } from "@vercel/analytics";
-import { BrowserRouter } from "react-router-dom";
 import posthog from "posthog-js";
 inject();
 
@@ -14,8 +13,8 @@ posthog.init("phc_gnfbhtpxbAZx2sKacxEAwEw49aGMIdmgdmzcFkTYhGG", {
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+  
       <App />
-    </BrowserRouter>
+   
   </StrictMode>
 );
