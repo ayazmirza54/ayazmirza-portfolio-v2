@@ -1,4 +1,5 @@
 import "./App.css";
+import { useLocation } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web';
 import Contents from "./components/Contents";
 import HeaderText from "./components/HeaderText";
@@ -8,8 +9,17 @@ import Techstack from "./components/Techstack";
 import WorkExp from "./components/WorkExp";
 import Blogs from "./components/Blogs";
 import CVdownload from "./components/CVdownload";
+import React from "react";
+import posthog from "posthog-js";
+
 
 function App() {
+  let location = useLocation();
+  React.useEffect(() => {
+    posthog.capture('$pageview','$pageleave')
+  }, [location]);
+
+
   const fadeIn = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
