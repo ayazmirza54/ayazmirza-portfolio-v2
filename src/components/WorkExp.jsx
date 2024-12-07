@@ -14,7 +14,7 @@ const WorkExp = () => {
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Senior Project Engineer
+                Senior Consultant
               </h3>
               <div className="px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900 dark:text-green-300">
                 Current
