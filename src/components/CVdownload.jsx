@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 const CVdownload = () => {
   const handleDownload = () => {
     // Create the link to your CV file (stored in public folder)
-    const cvUrl = "../../public/resume.pdf";
+    const cvUrl = "../../public/resume1.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "Ayaz.pdf";
