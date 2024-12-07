@@ -64,7 +64,7 @@ const WorkExp = () => {
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Frontend Developer
+                Frontend Web Developer
               </h3>
               <div className="px-3 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-full dark:bg-gray-700 dark:text-gray-300">
                 Completed
