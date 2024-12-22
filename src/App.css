@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@font-face {
+    font-family: 'Atari Classic Chunky';
+    src: url('./assets/AtariClassicChunky.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   font-family: 'JetBrains Mono', monospace;
   margin: 0;
