@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="portfolio-container p-4" id="introduction">
-      <div className="text-4xl font-extrabold capitalize"> Introduction</div>
+      <div className="text-2xl md:text-4xl font-extrabold capitalize"><h1>Introduction</h1></div>
       <br></br>
       <p>
         Experienced in using Ab Initio to create strong data processing

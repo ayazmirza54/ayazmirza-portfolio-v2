@@ -4,7 +4,7 @@ import { Github, ArrowUpRight } from "lucide-react";
 const Projects = () => {
   return (
     <div id="projects" className="portfolio-container">
-      <div className="text-4xl font-extrabold capitalize mb-8">Projects</div>
+      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Projects</h1></div>
 
       {/* Main Projects */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -20,9 +20,9 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h1 className="mb-2 text-2xl font-bold tracking-tight">
                   Text/Code Utils.AI
-                </h5>
+                </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 Text and Code Utilities: AI-enhanced tool by Google Gemini,
@@ -63,9 +63,9 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h1 className="mb-2 text-2xl font-bold tracking-tight">
                   Intellisketch : AI powered drawing tool 🖌️
-                </h5>
+                </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 IntelliSketch is an AI-powered drawing app that uses Google
@@ -108,9 +108,9 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h1 className="mb-2 text-2xl font-bold tracking-tight">
                   Chat2pdf using gemini
-                </h5>
+                </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 AI-powered app for conversational PDF interaction using Gemini
@@ -149,9 +149,9 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h1 className="mb-2 text-2xl font-bold tracking-tight">
                   System Metrics Logging Script
-                </h5>
+                </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 This script logs system metrics (CPU usage and memory usage) to
@@ -181,14 +181,14 @@ const Projects = () => {
         </div>
       </div>
       <div className="mt-12">
-        <h3 className="text-2xl font-bold mb-6">Other Noteworthy Projects</h3>
+        <h1 className="text-2xl md:text-4xl font-bold mb-6">Other Noteworthy Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Small Project Card 1 */}
           <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
             <div className="bg-black rounded-lg p-4 h-full hover:bg-black/90 transition-all">
               <div className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-lg font-semibold mb-2">Studysensie</h4>
+                  <h1 className="text-lg font-semibold mb-2">Studysensie</h1>
                   <p className="text-sm text-gray-400 mb-4">
                     Quiz Generator using Gemini AI API
                   </p>
@@ -225,7 +225,7 @@ const Projects = () => {
             <div className="bg-black rounded-lg p-4 h-full hover:bg-black/90 transition-all">
               <div className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-lg font-semibold mb-2">Movie-Finder</h4>
+                  <h1 className="text-lg font-semibold mb-2">Movie-Finder</h1>
                   <p className="text-sm text-gray-400 mb-4">
                     Movie Finder app using the the Movie Database API
                   </p>
@@ -262,9 +262,9 @@ const Projects = () => {
             <div className="bg-black rounded-lg p-4 h-full hover:bg-black/90 transition-all">
               <div className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-lg font-semibold mb-2">
+                  <h1 className="text-lg font-semibold mb-2">
                     Stone-Paper-Scissor-Game
-                  </h4>
+                  </h1>
                   <p className="text-sm text-gray-400 mb-4">
                     Stone Paper Scissor Game using React and TailwindCSS
                   </p>
@@ -292,9 +292,9 @@ const Projects = () => {
             <div className="bg-black rounded-lg p-4 h-full hover:bg-black/90 transition-all">
               <div className="flex justify-between items-start">
                 <div>
-                  <h4 className="text-lg font-semibold mb-2">
+                  <h1 className="text-lg font-semibold mb-2">
                     Quote-Generator
-                  </h4>
+                  </h1>
                   <p className="text-sm text-gray-400 mb-4">
                     Quote Generator using an external API
                   </p>
