@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @font-face {
     font-family: 'Atari Classic Chunky';
-    src: url('./assets/AtariClassicChunky.ttf') format('ttf');
+    src: url('./assets/AtariClassicChunky.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
