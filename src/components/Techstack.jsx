@@ -78,7 +78,7 @@ const Techstack = () => {
             variants={itemVariants}
             className="space-y-4"
           >
-            <h1 className="text-2xl font-bold">{category}</h1>
+            <h1 className="text-xl font-bold">{category}</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {techs.map((tech) => (
                 <motion.div

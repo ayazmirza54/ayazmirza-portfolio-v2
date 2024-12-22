@@ -20,7 +20,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-2xl font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
                   Text/Code Utils.AI
                 </h1>
               </a>
@@ -63,7 +63,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-2xl font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
                   Intellisketch : AI powered drawing tool 🖌️
                 </h1>
               </a>
@@ -108,7 +108,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-2xl font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-2xl  font-bold tracking-tight">
                   Chat2pdf using gemini
                 </h1>
               </a>
@@ -149,7 +149,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-2xl font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
                   System Metrics Logging Script
                 </h1>
               </a>

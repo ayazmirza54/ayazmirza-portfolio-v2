@@ -13,7 +13,7 @@ const WorkExp = () => {
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
-              <h1 className="text-2xl font-bold">
+              <h1 className="text-xl md:text-2xl font-bold">
                 Senior Consultant
               </h1>
               <div className="px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900 dark:text-green-300">
@@ -63,7 +63,7 @@ const WorkExp = () => {
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
-              <h1 className="text-2xl font-bold">
+              <h1 className="text-xl md:text-2xl font-bold">
                 Frontend Web Developer
               </h1>
               <div className="px-3 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-full dark:bg-gray-700 dark:text-gray-300">
