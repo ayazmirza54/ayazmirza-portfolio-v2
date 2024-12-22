@@ -11,15 +11,15 @@ const HeaderText = () => {
   return (
     <div className="portfolio-container grid grid-cols-1 md:grid-cols-12 gap-4 ">
       <div className="header-text col-span-1 md:col-span-8 relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
-        <div className="bg-black rounded-lg p-4 h-full">
+        <div className="bg-black rounded-lg p-4 h-full flex justify-center items-center gap-4">
           <h1 className="text-2xl md:text-4xl font-bold uppercase">
             Ayaz Mirza
           </h1>
-          <p className="text-xl md:text-2xl mt-2">Software Engineer from Lucknow, India</p>
+          <p className="text-xl md:text-2xl mt-2 inline-block">Software Engineer from Lucknow, India</p>
         </div>
       </div>
       <div className="social-links col-span-1 md:row-span-2 md:col-span-4 flex flex-col relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
-        <div className="bg-black rounded-lg p-4 h-full flex flex-col space-y-4">
+        <div className="bg-black rounded-lg p-4 h-full flex flex-col">
           {Object.entries(socialLinks).map(([platform, { link, icon,effect }]) => (
             <a
               key={platform}
@@ -37,8 +37,8 @@ const HeaderText = () => {
         </div>
       </div>
       <div className="email col-span-1 md:col-span-8 relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
-        <div className="bg-black rounded-lg p-4 h-full">
-          <div className="grid grid-cols-8 items-center">
+        <div className="bg-black rounded-lg p-4 h-full flex justify-center items-center gap-4">
+          <div className="grid grid-cols-8">
             <p className="font-bold col-span-2 md:col-span-1">Email</p>
             <p className="col-span-6 md:col-span-7">ayazmirza54@gmail.com | ☎️ +919889017774</p>
 
