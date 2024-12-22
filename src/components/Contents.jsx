@@ -51,7 +51,7 @@ const Contents = () => {
   return (
     <div className="portfolio-container flex flex-col md:w-1/2 md:flex-row md:justify-center text-left justify-center">
       <div className="mb-8 md:mb-0 md:mr-8">
-        <h2 className="text-2xl font-bold mb-4">CONTENTS</h2>
+        <h1 className="text-2xl md:text-4xl font-bold mb-4">CONTENTS</h1>
         <ul className="space-y-2">
           {contentItems.map((item, index) => (
             <li key={index} className="relative pl-4">

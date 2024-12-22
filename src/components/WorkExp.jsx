@@ -4,8 +4,8 @@ import { Calendar, MapPin } from "lucide-react";
 const WorkExp = () => {
   return (
     <div id="work-experience" className="portfolio-container">
-      <div className="text-4xl font-extrabold capitalize mb-8">
-        Work Experience
+      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8">
+       <h1>Work Experience</h1>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -13,9 +13,9 @@ const WorkExp = () => {
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h1 className="text-2xl font-bold">
                 Senior Consultant
-              </h3>
+              </h1>
               <div className="px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900 dark:text-green-300">
                 Current
               </div>
@@ -63,9 +63,9 @@ const WorkExp = () => {
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-6 h-full">
             <div className="flex justify-between items-start mb-4">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h1 className="text-2xl font-bold">
                 Frontend Web Developer
-              </h3>
+              </h1>
               <div className="px-3 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-full dark:bg-gray-700 dark:text-gray-300">
                 Completed
               </div>

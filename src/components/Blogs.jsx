@@ -40,7 +40,7 @@ const Blogs = () => {
 
   return (
     <div id="blogs" className="portfolio-container">
-      <div className="text-4xl font-extrabold capitalize mb-8">Blogs</div>
+      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Blogs</h1></div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {blogs.map((blog, index) => (
@@ -54,11 +54,11 @@ const Blogs = () => {
             <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
               <div className="bg-black rounded-lg p-6 h-full hover:bg-black/90 transition-all">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-bold text-white group-hover:text-gray-300 transition-colors">
+                  <h1 className="text-xl font-bold group-hover:text-gray-300 transition-colors">
                     {blog.title}
-                  </h3>
+                  </h1>
                   <ArrowUpRight
-                    size={20}
+                    size={60}
                     className="text-gray-400 group-hover:text-white transition-colors"
                   />
                 </div>
