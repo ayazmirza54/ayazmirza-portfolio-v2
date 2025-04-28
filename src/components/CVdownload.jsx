@@ -4,13 +4,13 @@ import { Download } from "lucide-react";
 const CVDownload = () => {
   const handleDownload = () => {
     // Use the correct path to the file in the public folder
-    const cvUrl = "/resume1.pdf";
-    
+    const cvUrl = "/AyazMirzaResume.pdf";
+
     // Create a temporary anchor element
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "Ayaz_Resume.pdf";
-    
+
     // Append to body, click, and remove
     document.body.appendChild(link);
     link.click();
@@ -25,7 +25,7 @@ const CVDownload = () => {
     >
       <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-4 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
         <Download className="h-5 w-5" />
-       Download Resume
+        Download Resume
       </span>
     </button>
   );
