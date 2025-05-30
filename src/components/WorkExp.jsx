@@ -66,7 +66,7 @@ const WorkExp = () => {
               <h1 className="text-xl md:text-2xl font-bold">
                 Frontend Web Developer
               </h1>
-              <div className="px-3 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-full dark:bg-gray-700 dark:text-gray-300">
+              <div className="px-3 py-1 text-xs font-medium bg-gray-100 text-white rounded-full dark:bg-gray-700 dark:text-gray-300">
                 Completed
               </div>
             </div>
