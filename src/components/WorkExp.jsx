@@ -21,11 +21,11 @@ const WorkExp = () => {
               </div>
             </div>
 
-            <h4 className="text-xl mb-2 text-gray-400 dark:text-gray-300">
+            <h4 className="text-xl mb-2 text-white dark:text-gray-300">
               Wipro Limited
             </h4>
 
-            <div className="flex items-center gap-4 mb-4 text-sm text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-4 mb-4 text-sm text-gray-600 dark:text-white">
               <div className="flex items-center gap-1">
                 <Calendar size={16} />
                 <span>Nov 2019 - Present</span>
@@ -36,7 +36,7 @@ const WorkExp = () => {
               </div>
             </div>
 
-            <div className="space-y-2 text-gray-600 dark:text-gray-400">
+            <div className="space-y-2 text-gray-600 dark:text-white">
               <p>-   I have worked on Ab Initio ETL tool as a tool to process client
               side information and provide valuable insights regarding the data</p>
               <p>- My other responsibilities involved interacting with cleint and
@@ -71,11 +71,11 @@ const WorkExp = () => {
               </div>
             </div>
 
-            <h4 className="text-xl mb-2 text-gray-400 dark:text-gray-300">
+            <h4 className="text-xl mb-2 text-white dark:text-gray-300">
               Cosmo Infosolutions Pvt Ltd
             </h4>
 
-            <div className="flex items-center gap-4 mb-4 text-sm text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-4 mb-4 text-sm text-gray-600 dark:text-white">
               <div className="flex items-center gap-1">
                 <Calendar size={16} />
                 <span>June 2019 - Oct 2019</span>
@@ -85,7 +85,7 @@ const WorkExp = () => {
                 <span>Lucknow, India</span>
               </div>
             </div>
-            <div className="space-y-2 text-gray-600 dark:text-gray-400">
+            <div className="space-y-2 text-gray-600 dark:text-white">
               <p>- Front-end developer skilled in HTML, CSS, JavaScript, and ReactJS for building reliable, user-friendly websites and applications.</p>
               <p>- Experienced in designing landing pages that capture attention and encourage users to explore further.</p>
               <p>- Focuses on layouts that are visually appealing, easy to navigate, and optimized for a smooth user experience.</p>

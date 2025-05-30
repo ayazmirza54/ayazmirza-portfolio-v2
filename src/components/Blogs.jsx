@@ -59,11 +59,11 @@ const Blogs = () => {
                   </h1>
                   <ArrowUpRight
                     size={60}
-                    className="text-gray-400 group-hover:text-white transition-colors"
+                    className="text-white group-hover:text-white transition-colors"
                   />
                 </div>
 
-                <p className="text-gray-400 mb-4 line-clamp-2">
+                <p className="text-white mb-4 line-clamp-2">
                   {blog.preview}
                 </p>
 
@@ -73,7 +73,7 @@ const Blogs = () => {
                     <span>•</span>
                     <span>{blog.readTime}</span>
                   </div>
-                  <span className="text-gray-400 font-medium">
+                  <span className="text-white font-medium">
                     {blog.platform}
                   </span>
                 </div>
