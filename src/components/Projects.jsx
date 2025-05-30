@@ -2,6 +2,7 @@ import React from "react";
 import { Github, ArrowUpRight } from "lucide-react";
 import { Server } from "lucide-react";
 import { DiScriptcs } from "react-icons/di";
+import { FaServer } from "react-icons/fa";
 const Projects = () => {
   return (
     <div id="projects" className="portfolio-container">
@@ -9,8 +10,8 @@ const Projects = () => {
 
       {/* Main Projects */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-       {/* Card 4 */}
-       <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+        {/* Card 1 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
               <img
@@ -22,7 +23,7 @@ const Projects = () => {
             <div className="p-5">
               <a href="#">
                 <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
-                    Text to Content AI
+                  Text to Content AI
                 </h1>
               </a>
               <p className="mb-3 font-normal text-white dark:text-white">
@@ -50,8 +51,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-         {/* Card 2 */}
-         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+        {/* Card 2 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
               <img
@@ -139,7 +140,7 @@ const Projects = () => {
           </div>
         </div>
 
-       
+
 
         {/* Card 4 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
@@ -184,14 +185,14 @@ const Projects = () => {
           </div>
         </div>
 
-        
 
-        
+
+
       </div>
       <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Devops Projects</h1></div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-       {/* Card 5 */}
-       <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+        {/* Card 5 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
             </a>
@@ -265,12 +266,58 @@ const Projects = () => {
         {/* Card 7 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
-            <a href="#">
+          <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/ec2-control.gif"
+                alt=""
+              />
             </a>
             <div className="p-5">
               <a href="#">
-               <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
-               📌 Keep Alive EC2 Script
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight flex justify-center items-center gap-4">
+                  <FaServer size={30} /> EC2 Manager TUI
+                </h1>
+              </a>
+              <p className="mb-3 font-normal text-white dark:text-white">
+                A CLI tool to manage EC2 instances. It uses the AWS SDK for Python to interact with the AWS API.
+              </p>
+              <div className="flex flex-row justify-center text-center gap-4">
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/ec2-manager-tui"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    🔗 Live Link
+                  </span>
+                </a>
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/ec2-manager-tui"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    <Github size={12} />
+                    Github Link
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Card 8 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+          <div className="bg-black rounded-lg p-5 h-full">
+          <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/keep-alive.png"
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <a href="#">
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                  📌 Keep Alive EC2 Script
                 </h1>
               </a>
               <p className="mb-3 font-normal text-white dark:text-white">
@@ -282,21 +329,22 @@ const Projects = () => {
                   href="https://github.com/ayazmirza54/pingservice"
                 >
                   <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
-                  <Github size={12} /> Github Link
+                    <Github size={12} /> Github Link
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* Card 9 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
             </a>
             <div className="p-5">
               <a href="#">
-               <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
-                System Metrics Logging Script
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                  System Metrics Logging Script
                 </h1>
               </a>
               <p className="mb-3 font-normal text-white dark:text-white">
@@ -309,7 +357,7 @@ const Projects = () => {
                   href="https://github.com/ayazmirza54/system-metrics-monitoring-script"
                 >
                   <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
-                  <Github size={12} /> Github Link
+                    <Github size={12} /> Github Link
                   </span>
                 </a>
               </div>
