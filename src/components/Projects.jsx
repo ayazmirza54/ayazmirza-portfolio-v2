@@ -194,7 +194,12 @@ const Projects = () => {
         {/* Card 5 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
-            <a href="#">
+          <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/unixbot.png"
+                alt=""
+              />
             </a>
             <div className="p-5">
               <a href="#">
@@ -230,7 +235,12 @@ const Projects = () => {
         {/* Card 6 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
-            <a href="#">
+          <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/query-smith.png"
+                alt=""
+              />
             </a>
             <div className="p-5">
               <a href="#">
@@ -339,7 +349,12 @@ const Projects = () => {
         {/* Card 9 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
-            <a href="#">
+          <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/system-metrics.png"
+                alt=""
+              />
             </a>
             <div className="p-5">
               <a href="#">
