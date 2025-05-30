@@ -21,7 +21,7 @@ const WorkExp = () => {
               </div>
             </div>
 
-            <h4 className="text-xl mb-2 text-gray-700 dark:text-gray-300">
+            <h4 className="text-xl mb-2 text-gray-400 dark:text-gray-300">
               Wipro Limited
             </h4>
 
@@ -71,7 +71,7 @@ const WorkExp = () => {
               </div>
             </div>
 
-            <h4 className="text-xl mb-2 text-gray-700 dark:text-gray-300">
+            <h4 className="text-xl mb-2 text-gray-400 dark:text-gray-300">
               Cosmo Infosolutions Pvt Ltd
             </h4>
 

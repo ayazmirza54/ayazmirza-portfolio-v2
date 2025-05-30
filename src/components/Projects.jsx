@@ -25,7 +25,7 @@ const Projects = () => {
                     Text to Content AI
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 Text to Content AI is an AI-powered tool that converts text into content. It uses the Gemini API to generate content based on the text input.
               </p>
               <div className="flex flex-row justify-center text-center gap-4">
@@ -66,7 +66,7 @@ const Projects = () => {
                   Intellisketch : AI powered drawing tool 🖌️
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 IntelliSketch is an AI-powered drawing app that uses Google
                 Gemini API to interpret and solve mathematical sketches and
                 graphical problems in real-time. By combining Excalidraw's
@@ -112,7 +112,7 @@ const Projects = () => {
                   Text/Code Utils.AI
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 Text and Code Utilities: AI-enhanced tool by Google Gemini,
                 offering streamlined text analysis and code generation.
               </p>
@@ -157,7 +157,7 @@ const Projects = () => {
                   Chat2pdf using gemini
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 AI-powered app for conversational PDF interaction using Gemini
                 and LangChain.
               </p>
@@ -201,7 +201,7 @@ const Projects = () => {
                   📜 UnixBot
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 UnixBot is a chatbot that can be used to chat about unix commands. It uses the Gemini API to generate responses. You can ask it about any unix command and it will give you the answer.
               </p>
               <div className="flex flex-row justify-center text-center gap-4">
@@ -237,7 +237,7 @@ const Projects = () => {
                   ⚒️ QuerySmith
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 QuerySmith is a chatbot that can be used to generate SQL queries. It uses the Gemini API to generate responses. You can ask it about any database and it will give you the answer.
               </p>
               <div className="flex flex-row justify-center text-center gap-4">
@@ -273,7 +273,7 @@ const Projects = () => {
                📌 Keep Alive EC2 Script
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 This script keeps an EC2 instance alive by pinging it every 10 minutes.
               </p>
               <div className="flex flex-row justify-center text-center gap-4">
@@ -299,7 +299,7 @@ const Projects = () => {
                 System Metrics Logging Script
                 </h1>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-400 dark:text-gray-400">
                 This script logs system metrics (CPU usage and memory usage) to
                 a PostgreSQL database hosted on Render at regular intervals.
               </p>
