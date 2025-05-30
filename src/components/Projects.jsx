@@ -1,37 +1,37 @@
 import React from "react";
 import { Github, ArrowUpRight } from "lucide-react";
-
+import { Server } from "lucide-react";
+import { DiScriptcs } from "react-icons/di";
 const Projects = () => {
   return (
     <div id="projects" className="portfolio-container">
-      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Projects</h1></div>
+      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Web Dev Projects</h1></div>
 
       {/* Main Projects */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        {/* Card 1 */}
-        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+       {/* Card 4 */}
+       <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
               <img
                 className="rounded-t-lg w-full"
-                src="/project_1.png"
+                src="https://opengraph.b-cdn.net/production/images/d2191f8c-f07c-494b-854b-281f67c52b6e.png?token=QK8jkkzV7j7xvYLQdz4UvUYMfRqlyDzGNER8TCVsP8c&height=1013&width=1200&expires=33271056025"
                 alt=""
               />
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
-                  Text/Code Utils.AI
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                    Text to Content AI
                 </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Text and Code Utilities: AI-enhanced tool by Google Gemini,
-                offering streamlined text analysis and code generation.
+                Text to Content AI is an AI-powered tool that converts text into content. It uses the Gemini API to generate content based on the text input.
               </p>
               <div className="flex flex-row justify-center text-center gap-4">
                 <a
                   className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
-                  href="https://text-code-util-aiprod.vercel.app/"
+                  href="https://texttocontent.vercel.app/"
                 >
                   <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
                     🔗 Live Link
@@ -39,7 +39,7 @@ const Projects = () => {
                 </a>
                 <a
                   className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
-                  href="https://github.com/ayazmirza54/text-code-util.aiprod/"
+                  href="https://github.com/ayazmirza54/text-to-content-ai/"
                 >
                   <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
                     <Github size={12} />
@@ -50,9 +50,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        {/* Card 2 */}
-        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+         {/* Card 2 */}
+         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
               <img
@@ -63,7 +62,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
                   Intellisketch : AI powered drawing tool 🖌️
                 </h1>
               </a>
@@ -97,6 +96,52 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* Card 3 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+          <div className="bg-black rounded-lg p-5 h-full">
+            <a href="#">
+              <img
+                className="rounded-t-lg w-full"
+                src="/project_1.png"
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <a href="#">
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                  Text/Code Utils.AI
+                </h1>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Text and Code Utilities: AI-enhanced tool by Google Gemini,
+                offering streamlined text analysis and code generation.
+              </p>
+              <div className="flex flex-row justify-center text-center gap-4">
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://text-code-util-aiprod.vercel.app/"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    🔗 Live Link
+                  </span>
+                </a>
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/text-code-util.aiprod/"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    <Github size={12} />
+                    Github Link
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+        {/* Card 4 */}
         <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
@@ -108,7 +153,7 @@ const Projects = () => {
             </a>
             <div className="p-5">
               <a href="#">
-                <h1 className="mb-2 text-xl md:text-2xl  font-bold tracking-tight">
+                <h1 className="mb-2 text-xl md:text-xl  font-bold tracking-tight">
                   Chat2pdf using gemini
                 </h1>
               </a>
@@ -138,19 +183,120 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+
+        
+
+        
+      </div>
+      <div className="text-2xl md:text-4xl font-extrabold capitalize mb-8"><h1>Devops Projects</h1></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+       {/* Card 5 */}
+       <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
           <div className="bg-black rounded-lg p-5 h-full">
             <a href="#">
-              <img
-                className="rounded-t-lg w-full"
-                src="/project_3.png"
-                alt=""
-              />
             </a>
             <div className="p-5">
               <a href="#">
                 <h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight">
-                  System Metrics Logging Script
+                  📜 UnixBot
+                </h1>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                UnixBot is a chatbot that can be used to chat about unix commands. It uses the Gemini API to generate responses. You can ask it about any unix command and it will give you the answer.
+              </p>
+              <div className="flex flex-row justify-center text-center gap-4">
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://unix-bot.streamlit.app/"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    🔗 Live Link
+                  </span>
+                </a>
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/unixbot"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    <Github size={12} />
+                    Github Link
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Card 6 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+          <div className="bg-black rounded-lg p-5 h-full">
+            <a href="#">
+            </a>
+            <div className="p-5">
+              <a href="#">
+                <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                  ⚒️ QuerySmith
+                </h1>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                QuerySmith is a chatbot that can be used to generate SQL queries. It uses the Gemini API to generate responses. You can ask it about any database and it will give you the answer.
+              </p>
+              <div className="flex flex-row justify-center text-center gap-4">
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://query-smith.streamlit.app/"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    🔗 Live Link
+                  </span>
+                </a>
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/chat-with-db"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                    <Github size={12} />
+                    Github Link
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Card 7 */}
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+          <div className="bg-black rounded-lg p-5 h-full">
+            <a href="#">
+            </a>
+            <div className="p-5">
+              <a href="#">
+               <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+               📌 Keep Alive EC2 Script
+                </h1>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                This script keeps an EC2 instance alive by pinging it every 10 minutes.
+              </p>
+              <div className="flex flex-row justify-center text-center gap-4">
+                <a
+                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
+                  href="https://github.com/ayazmirza54/pingservice"
+                >
+                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
+                  <Github size={12} /> Github Link
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative p-[2px] rounded-lg bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300">
+          <div className="bg-black rounded-lg p-5 h-full">
+            <a href="#">
+            </a>
+            <div className="p-5">
+              <a href="#">
+               <h1 className="mb-2 text-xl md:text-xl font-bold tracking-tight">
+                System Metrics Logging Script
                 </h1>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -163,22 +309,14 @@ const Projects = () => {
                   href="https://github.com/ayazmirza54/system-metrics-monitoring-script"
                 >
                   <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
-                    🔗 Live Link
-                  </span>
-                </a>
-                <a
-                  className="text-[10px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 group relative w-fit overflow-hidden rounded-xl bg-gradient-to-bl from-gray-800 via-slate-500 to-gray-300 p-[2px] font-bold transition-all duration-300 hover:rounded-2xl active:rounded-xl active:duration-150"
-                  href="https://github.com/ayazmirza54/system-metrics-monitoring-script"
-                >
-                  <span className="inline-flex h-full w-fit items-center gap-1 rounded-[10px] bg-white/90 px-2 py-2 text-black transition-all duration-300 group-hover:rounded-2xl group-hover:bg-white/0 group-hover:text-white dark:bg-black/80 dark:text-white group-hover:dark:bg-black/0 dark:group-hover:text-black">
-                    <Github size={12} />
-                    Github Link
+                  <Github size={12} /> Github Link
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+
       </div>
       <div className="mt-12">
         <h1 className="text-2xl md:text-4xl font-bold mb-6">Other Noteworthy Projects</h1>
