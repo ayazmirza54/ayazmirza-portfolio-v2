@@ -39,6 +39,15 @@ h1{
   background-position: 0 0;
   background-color: #222;
 }
+.footer{
+  font-family: 'Atari Classic Chunky', monospace;
+  color: rgba(255, 255, 255, 0.461);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #ffffff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #ffffff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #ffffff));
+  background-size: 50px 100%;
+  background-clip: text;
+}
 .bg-grid {
   position: fixed;
   left: 0%;

@@ -8,6 +8,7 @@ import Techstack from "./components/Techstack";
 import WorkExp from "./components/WorkExp";
 import Blogs from "./components/Blogs";
 import React from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const fadeIn = useSpring({
@@ -41,6 +42,7 @@ function App() {
         <Projects />
         <Blogs />
         <Techstack />
+        <Footer />
       </animated.div>
     </animated.div>
     </>
