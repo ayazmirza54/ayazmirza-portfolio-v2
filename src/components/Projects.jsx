@@ -6,7 +6,7 @@ import { FaServer } from "react-icons/fa";
 const Projects = () => {
   return (
     <div id="projects" className="portfolio-container">
-      <div className="text-2xl md:text-2xl font-extrabold capitalize mb-8"><h1>🕸️Webdev × AI🤖 Projects</h1></div>
+      <div className="text-2xl md:text-3xl font-extrabold capitalize mb-8"><h1>🕸️Webdev 🫱🏽‍🫲🏾 AI🤖 Projects</h1></div>
 
       {/* Main Projects */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
